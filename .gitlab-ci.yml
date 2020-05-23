@@ -1,0 +1,19 @@
+stages:
+  - build_ng_pages
+
+pages:
+  image: node:latest
+  stage: build_ng_pages
+  script:
+    - npm install
+    - ./node_modules/.bin/ng build  --prod --output-path public
+    - cp public/index.html public/404.html
+  artifacts:
+    paths:
+      - public/
+  cache:
+    key: node-cache
+    paths:
+      - node_modules/
+  only:
+    - master
