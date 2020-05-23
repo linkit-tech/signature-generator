@@ -13,7 +13,7 @@ export class UserinfoComponent implements OnInit {
 
   constructor( private router: Router ) { }
 
-  model = new Linkitmember(0,"Siggi Hartmann", ressortList.ressorts[0].name,"+4917681528058","siggi.hartmann@linkit.tech");
+  model = new Linkitmember(0,"Siggi Hartmann", ressortList.ressorts[0].name,"17681528058","siggi.hartmann@linkit.tech");
 
   title = 'signature-generator';
   ressorts = ressortList.ressorts;

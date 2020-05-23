@@ -1,3 +1,16 @@
-<p>navbar</p>
-<!-- routes will be rendered here -->
-<router-outlet></router-outlet>
+<!-- header -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" [routerLink]="['/']" routerLinkActive="aktive">
+          <img
+            class="linkit-logo"
+            src="https://www.linkit.tech/assets/pics/logos/linkit-gruen.svg"
+            alt="linkit e.V. Logo"
+          />
+        </a>
+      </nav>
+      
+      <!-- routes will be rendered here -->
+      <router-outlet></router-outlet>
+      
+
+      

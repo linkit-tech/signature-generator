@@ -1,8 +1,29 @@
 {"ressorts":[
     {
+        "name":"Vorstand"
+    },
+    {
         "name":"Ressort IT"
     },
     {
-        "name":"Ressort Aquise"
+        "name":"Ressort Finanzen"
+    },
+    {
+        "name":"Ressort Akquise"
+    },
+    {
+        "name":"Ressort Marketing"
+    },
+    {
+        "name":"Ressort HR"
+    },
+    {
+        "name":"Interne Projekte"
+    },
+    {
+        "name":"Industrieprojekte"
+    },
+    {
+        "name":"Alumni"
     }
 ]}
