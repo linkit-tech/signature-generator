@@ -6,7 +6,7 @@ pages:
   stage: build_ng_pages
   script:
     - npm install
-    - ./node_modules/.bin/ng build  --prod --output-path public
+    - ./node_modules/.bin/ng build  --prod --output-path public --base-href="https://linkit-tech.gitlab.io/tools/signature-generator/"
     - cp public/index.html public/404.html
   artifacts:
     paths:
