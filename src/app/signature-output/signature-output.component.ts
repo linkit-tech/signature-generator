@@ -14,15 +14,19 @@ export class SignatureOutputComponent implements OnInit {
   role : string;
   mail : string;
   phone : string;
+  logoUrl :string; 
+
+  colorLogo = ["linkit_dunkelblau.png","linkit_gelb.png","linkit_gruen.png","linkit_hellblau.png","linkit_orange.png","linkit_pink.png","linkit_rot.png","linkit_tuerkis.png"];
 
   ngOnInit(): void {
+    let colorStr = this.colorLogo[Math.floor(Math.random() * this.colorLogo.length)];
     this.route.queryParams.subscribe(params => {
       this.name = params['name'];
       this.role = params['role'];
       this.mail = params['mail'];
       this.phone = params['phone'];
     });
-
+    this.logoUrl = "https://www.linkit.tech/assets/img/logo/" + colorStr ;
   }
 
  copyToClip() {
