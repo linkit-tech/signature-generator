@@ -48,7 +48,23 @@
         "lead": true
     },
     {
+        "name":"Leiter Data Science Projekt",
+        "lead": true
+    },
+    {
+        "name":"Leiter Schulungsprojekt",
+        "lead": true
+    },
+    {
         "name":"Interne Projekte",
+        "lead": false
+    },
+    {
+        "name":"Data Science Projekt",
+        "lead": false
+    },
+    {
+        "name":"Schulungsprojekt",
         "lead": false
     },
     {
