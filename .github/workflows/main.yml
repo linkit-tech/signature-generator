@@ -10,5 +10,5 @@ jobs:
       - name: Install and Build
         run: |
           npm install
-          ng build  --prod --output-path public --base-href="https://linkit-tech.gitlab.io/tools/signature-generator/"
+          ./node_modules/.bin/ng build  --prod --output-path public --base-href="https://linkit-tech.gitlab.io/tools/signature-generator/"
 
