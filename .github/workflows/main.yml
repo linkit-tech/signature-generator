@@ -10,7 +10,7 @@ jobs:
       - name: Install and Build
         run: |
           npm install
-          ./node_modules/.bin/ng build  --prod --output-path build --base-href="https://linkit-tech.gitlab.io/tools/signature-generator/"
+          ./node_modules/.bin/ng build  --prod --output-path build --base-href="https://linkit-tech.github.io/signature-generator/"
           
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
