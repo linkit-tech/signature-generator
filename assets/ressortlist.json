@@ -1,0 +1,82 @@
+{"ressorts":[
+    {
+        "name":"Vorstand",
+        "lead": true
+    },
+    {
+        "name":"Ressortleiter IT",
+        "lead": true
+    },
+    {
+        "name":"Ressort IT",
+        "lead": false
+    },
+    {
+        "name":"Ressortleiter Finanzen",
+        "lead": true
+    },
+    {
+        "name":"Ressort Finanzen",
+        "lead": false
+    },
+    {
+        "name":"Ressortleiter Akquise",
+        "lead": true
+    },
+    {
+        "name":"Ressort Akquise",
+        "lead": false
+    },
+    {
+        "name":"Ressortleiter Marketing",
+        "lead": true
+    },
+    {
+        "name":"Ressort Marketing",
+        "lead": false
+    },
+    {
+        "name":"Ressortleiter HR",
+        "lead": true
+    },
+    {
+        "name":"Ressort HR",
+        "lead": false
+    },
+    {
+        "name":"Leiter Interne Projekte",
+        "lead": true
+    },
+    {
+        "name":"Leiter Data Science Projekt",
+        "lead": true
+    },
+    {
+        "name":"Leiter Schulungsprojekt",
+        "lead": true
+    },
+    {
+        "name":"Interne Projekte",
+        "lead": false
+    },
+    {
+        "name":"Data Science Projekt",
+        "lead": false
+    },
+    {
+        "name":"Schulungsprojekt",
+        "lead": false
+    },
+    {
+        "name":"Leiter Industrieprojekte",
+        "lead": true
+    },
+    {
+        "name":"Industrieprojekte",
+        "lead": false
+    },
+    {
+        "name":"Alumni",
+        "lead": false
+    }
+]}
