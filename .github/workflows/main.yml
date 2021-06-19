@@ -1,7 +1,7 @@
 name: Build and Deploy
 on: [push]
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -11,4 +11,9 @@ jobs:
         run: |
           npm install
           ./node_modules/.bin/ng build  --prod --output-path public --base-href="https://linkit-tech.gitlab.io/tools/signature-generator/"
-
+          
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: build # The folder the action should deploy.
